@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Jesus - Portafolio</title>
+    <link rel="shortcut icon" href="media/logo.svg" type="image/svg" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link href="css/css-gg.css" rel="stylesheet" />
+    <script src="js/site.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="main-content">
+        <aside>
+          <div class="profile">
+            <img src="media/Captura de pantalla 2025-01-11 185010.png" id="photo-profile" class="my-photo" />
+            <div>
+                <h1 class="title">Gabriel Jesús Ramírez De La Llave</h1>
+                <div class="badge-profile">Técnico Superior Universitario en TI</div>
+                <div class="social">
+                    <a href="https://www.facebook.com/share/18j7JxbLhP/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/gabriel_delallave?igsh=Z2R3ZnVudzZ6ODl2" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/2211951174" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/Gabrieljesusjrd" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="info">
+                <ul class="contacts-block">
+                    <li class="contacts-block-item"><i class="fa-solid fa-calendar"></i>&nbsp;&nbsp; 21 de abril de 2004</li>
+                    <li class="contacts-block-item"><i class="fa-solid fa-map-marker-alt"></i>&nbsp;&nbsp; Puebla, México</li>
+                    <li class="contacts-block-item"><i class="fa-solid fa-envelope"></i><a href="mailto:gabrieljesusra35@gmail.com">&nbsp;&nbsp;gabrieljesusra35@gmail.com</a></li>
+                    <li class="contacts-block-item"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; 22 11 95 11 74</li>
+                </ul>
+                <a class="btn" href="media/CURRICULUM VITAE G.pdf" target="_blank">Descargar CV</a>
+            </div>
+        </div>
+        </aside>
+
+      <!-- Contenido principal -->
+      <section class="resume">
+        <!-- Menú -->
+        <header>
+          <div class="menu-circle">
+            <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+          </div>
+          <div class="inner-menu js-menu">
+            <ul class="nav">
+              <li class="nav-item"><a href="index.html">Acerca de</a></li>
+              <li class="nav-item"><a href="#portfolio">Portafolio</a></li>
+            </ul>
+          </div>
+        </header>
+
+  
+
+        <!-- Portafolio -->
+        <div id="portfolio">
+          <h2 class="title bordered">Portafolio</h2>
+          <div class="portfolio">
+            <img src="media/image.png" onclick="showImage(this)">
+            <img src="media/image2.png" onclick="showImage(this)">
+            <img src="media/image3.png" onclick="showImage(this)">
+           
+          </div>
+          
+          <div class="modal" id="preview">
+            <button class="close-modal" onclick="cerrarModal()"><i class="gg-close"></i></button>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      Autor: Gabriel Jesus Ramirez De La Llave
+    </footer>
+  </body>
+</html>
